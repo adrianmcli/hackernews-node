@@ -2,5 +2,12 @@
   "name": "hackernews-node",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  }
 }
